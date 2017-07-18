@@ -404,7 +404,18 @@ ul.blockList ul.blockList li.blockList table {
 }
 .overviewSummary td, .packageSummary td, .contentContainer ul.blockList li.blockList td, .summary td, .classUseContainer td, .constantValuesContainer td {
     text-align:left;
+<<<<<<< HEAD
     padding:3px 3px 3px 7px;
+=======
+    padding:0px 0px 12px 10px;
+}
+th.colOne, th.colFirst, th.colLast, .useSummary th, .constantsSummary th,
+td.colOne, td.colFirst, td.colLast, .useSummary td, .constantsSummary td{
+    vertical-align:top;
+    padding-right:0px;
+    padding-top:8px;
+    padding-bottom:3px;
+>>>>>>> 900fd3ef0ade4b0b48eaf331b268994f4ce7d603
 }
 th.colFirst, th.colLast, th.colOne, .constantValuesContainer th {
     background:#dee3e9;
@@ -424,8 +435,24 @@ td.colLast, th.colLast {
     border-right:1px solid #9eadc0;
 }
 td.colOne, th.colOne {
+<<<<<<< HEAD
     border-right:1px solid #9eadc0;
     border-left:1px solid #9eadc0;
+=======
+    font-size:13px;
+}
+.overviewSummary td.colFirst, .overviewSummary th.colFirst,
+.useSummary td.colFirst, .useSummary th.colFirst,
+.overviewSummary td.colOne, .overviewSummary th.colOne,
+.memberSummary td.colFirst, .memberSummary th.colFirst,
+.memberSummary td.colOne, .memberSummary th.colOne,
+.typeSummary td.colFirst{
+    width:25%;
+    vertical-align:top;
+}
+td.colOne a:link, td.colOne a:active, td.colOne a:visited, td.colOne a:hover, td.colFirst a:link, td.colFirst a:active, td.colFirst a:visited, td.colFirst a:hover, td.colLast a:link, td.colLast a:active, td.colLast a:visited, td.colLast a:hover, .constantValuesContainer td a:link, .constantValuesContainer td a:active, .constantValuesContainer td a:visited, .constantValuesContainer td a:hover {
+    font-weight:bold;
+>>>>>>> 900fd3ef0ade4b0b48eaf331b268994f4ce7d603
 }
 table.overviewSummary  {
     padding:0px;
